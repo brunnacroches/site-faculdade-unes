@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNES - Contato </title>
+</head>
+<body background="imagens/fundo2.png">                   <!-- "background": definir uma cor e imagem de fundo / o body e toda a area visível do nosso site-->
+  <table border="0" width="900" align="center">         <!-- "border": para acompanhar o andamento da criação dessa tabela -->
+    <tr>                                                <!-- "width": distanciar o "LOGO" do "MENU" -->
+      <td height="89"><img src="imagens/logo.png" ></td>            <!-- "align": para centralizar --> <!--OBS: nao e recomendado usar tabelas para estruturar o seu site, e recomendado para listar intens como quantidade do usuário-->
+      <td align= "right">                               <!--CRIANDO O MENU: nao e recomendado usar tabelas para estruturar o seu site, e recomendado para listar intens como quantidade do usuário-->
+          <a href="index.html">Home</a> |                         <!--CRIANDO O MENU: nao e recomendado usar tabelas para estruturar o seu site, e recomendado para listar intens como quantidade do usuário-->
+          <a href="quem-somos.html ">Quem somos</a> |   <!--QUANDO VOCE NAO DEFINE UM LINK: ele apenas abre a própria pagina >>>>> <a href="">Home</a> |  <<<<< <-->
+          <a href="contato.html">Contato</a> |          <!--QUANDO VOCE DEFINE UM LINK: ele  abre outra própria pagina       >>>>  <a href="quem-somos.html ">Quem somos</a> | <<<<<  <-->
+        </td>                               
+      </tr>
+
+      <tr>
+        <td colspan= "2">
+        <h2> Entre em contato </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in volutpat leo, sed sodales leo.
+        </p>
+
+        <hr>
+
+        <form>                                          <!--CRIANDO FORMULÁRIO : <form> </form> -->
+          Seu email: <br>                               <!--<br> produz uma quebra de linha em um texto -->       
+          <input type="text" name ="email"><br>         <!--<input type> / type: define o tipo desse componente / name : define uma forma de voce recuperar os dados que o usuário digitar, utilizando a linguagem de programação  --> 
+
+          Assunto: <br>
+          <input type="text" name ="assunto"><br>
+
+          Descrição: <br>
+          <textarea></textarea><br>
+
+          <input type="submit" value="Enviar"
+        </form>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <h4>Todos os direitos reservados</h4>
+        </td>
+      </tr>                                             
+    </table>
+  </body>
+</html>
+
+ 
